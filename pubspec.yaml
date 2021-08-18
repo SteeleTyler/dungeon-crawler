@@ -1,5 +1,5 @@
 name: app
-description: A new Flutter project.
+description: A dungeon crawler game.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
@@ -13,11 +13,15 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  flame: ^1.0.0-releasecandidate.11
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
+  assets:
+    - assets/images/robot.png
+    - assets/images/button.png
 
   uses-material-design: true
